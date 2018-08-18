@@ -4399,7 +4399,7 @@ nav ul a {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   font-size: 1rem;
-  color: rgb(255, 255, 255);
+  color: #fff;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -5495,7 +5495,7 @@ button.btn-floating {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  color: #343434;
+  color: white;
   cursor: pointer;
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
@@ -5506,6 +5506,10 @@ button.btn-floating {
           box-shadow: none;
 }
 
+#red:focus{
+
+  background-color:red;
+}
 .btn-flat:focus {
   background-color: rgba(0, 0, 0, 0.1);
 }
