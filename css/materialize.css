@@ -5232,6 +5232,7 @@ small {
 .btn-flat {
   font-size: 14px;
   outline: 0;
+  font-weight: 600;
 }
 
 .btn i, .btn-large i, .btn-small i,
