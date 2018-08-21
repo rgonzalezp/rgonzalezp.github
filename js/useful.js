@@ -8,20 +8,8 @@ $(window).scroll(function () {
     if (elems.hasClass("active"))
         return;
 
-        // Start the animation
-        elems.each(function (index,elem) {
-          console.log(elem)
-        if (isElementInViewport(elem)) {
-            $(this).delay(index * 200).queue(function (nxt) {
-                $(this).addClass("active");
-                nxt();
-            });
-          }
-        });
-    let type = $(".typewriter");
-    if (isElementInViewport(type)) {
-        $(".typewriter").addClass("active");
-    }
+      
+  
 });
   
   // Activate scrollspy to add active class to navbar items on scroll
@@ -51,9 +39,10 @@ $(window).scroll(function () {
 $(document).ready(function(){
     $('.parallax').parallax();
   });
-var instance = M.Parallax.getInstance(elem);
+
+var instance = M.Parallax.getInstance($(".parallax"));
     
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
+    var instances = M.Parallax.init(elems, 0);
   });
