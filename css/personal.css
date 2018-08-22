@@ -1,0 +1,62 @@
+.btn,.btn-large,.btn-small,.btn-flat{
+	font-family:"Rubik";
+	font-size:16;
+	font-weight:600;
+	color:white;
+	padding-left:1rem;
+	padding-right: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+
+a{
+	text-decoration-style: : none;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration-style: : none;
+	text-decoration: none;
+}
+
+.row{
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	line-height: 4rem;
+}
+.navbar{
+	margin-bottom:0;
+	padding:1rem 1rem;
+
+}
+.navbar-collapse{
+	padding:0;
+
+}
+
+.navbar-nav > li > a{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.container-fluid{
+	margin-bottom: 0rem;
+	padding-right: 0rem;
+	padding-left: 0rem;
+}
+p{
+	line-height: auto;
+}
+.card-panel{
+	margin:0rem;
+	padding:1rem;
+
+}
+
+#footer{
+	padding:1rem;
+}
+
+
