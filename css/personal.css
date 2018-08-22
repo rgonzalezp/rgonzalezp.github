@@ -63,7 +63,7 @@ p {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     padding: 1rem;
-    height: 100%;
+    height: auto;
 }
 
 h3 {
@@ -73,7 +73,7 @@ h3 {
 }
 
 .section {
-    height: 100% ;
+    height: auto ;
     width:100%;
 }
 
