@@ -1,63 +1,105 @@
-.btn,.btn-large,.btn-small,.btn-flat{
-	font-family:"Rubik";
-	font-size:16;
-	font-weight:600;
-	color:white;
-	padding-left:1rem;
-	padding-right: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+.btn,
+.btn-large,
+.btn-small,
+.btn-flat {
+    font-family: "Rubik";
+    font-size: 16;
+    font-weight: 600;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
-a{
-	text-decoration-style: : none;
-	text-decoration: none;
+a {
+    text-decoration-style: : none;
+    text-decoration: none;
 }
 
-a:hover{
-	text-decoration-style: : none;
-	text-decoration: none;
+a:hover {
+    text-decoration-style: : none;
+    text-decoration: none;
 }
 
-.row{
-	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
-	line-height: 4rem;
-}
-.navbar{
-	margin-bottom:0;
-	color:white;
-	padding:1rem 1rem;
-
-}
-.navbar-collapse{
-	padding:0;
+.row {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.navbar-nav,.navbar-light,.navbar-link{
-	padding-top: 8px;
-	padding-bottom: 8px;
+.navbar {
+    margin-bottom: 0;
+    color: white;
+    padding: 1rem 1rem;
 }
 
-
-.container-fluid{
-	margin-bottom: 0rem;
-	padding-right: 0rem;
-	padding-left: 0rem;
-}
-p{
-	line-height: auto;
-}
-.card-panel{
-	margin:0rem;
-	padding:1rem;
-
+.navbar-collapse {
+    padding: 0;
 }
 
-#footer{
-	padding:1rem;
+.navbar-nav,
+.navbar-light,
+.navbar-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 
+.container-fluid {
+    margin-bottom: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+p {
+    line-height: auto !important;
+}
+
+.card-panel {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section {
+    height: 100% ;
+    width:100%;
+}
+
+.special-panel {
+    padding: auto;
+}
+
+#right-content {
+    padding: 0;
+}
+
+#left-content {
+    padding: 0;
+}
+
+#Philosophy {
+    background-color: #1E88E5;
+}
+
+#Skills {
+    background-color: #1E88E5;
+}
+
+#footer {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem;
+}
