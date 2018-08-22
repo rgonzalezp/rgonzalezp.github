@@ -39,27 +39,29 @@
                     <a href="#coolstuff" class="btn-flat waves-effect waves-light blue darken-1">Cool Stuff</a>
                 </li>
             </ul>
-            <div class="fixed-action-btn hide-on-med-and-up direction-bottom" style="position:relative;top:0px;">
-                <a class="btn-floating btn-large blue hide-on-med-and-up"><i class="large material-icons">list</i></a>
-                <ul id="dropdown">
-                    <li style="margin-top:0;">
-                        <a href="#Philosophy" class="btn-flat waves-effect waves-yellow blue darken-1" style="margin-left: 8px;">Ph</a>
-                    </li>
-                    <li style="margin-top:0;">
-                        <a href="#projects" class="btn-flat waves-effect waves-red blue darken-1" style="margin-left: 8px;">A</a>
-                    </li>
-                    <li style="margin-top:0;">
-                        <a href="#Blog" class="btn-flat waves-effect waves-green blue darken-1" style="margin-left: 8px;">Si</a>
-                    </li>
-                    <li style="margin-top:0;">
-                        <a href="#coolstuff" class="btn-flat waves-effect waves-light blue darken-1" style="margin-left: 8px;">CS</a>
-                    </li>
-                </ul>
-            </div>
+            <button class="navbar-toggler hide-on-med-and-up" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-toggler-icon material-icons">list</i>
+              </button>
+              <div class="navbar-collapse collapse lighten-5" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item" style="margin-top:0;">
+                            <a href="#Philosophy" class="btn-flat waves-effect waves-yellow blue darken-1" style="margin-left: 8px;">My philosophy</a>
+                        </li>
+                        <li class="nav-item" style="margin-top:0;">
+                            <a href="#projects" class="btn-flat waves-effect waves-red blue darken-1" style="margin-left: 8px;">About</a>
+                        </li>
+                        <li class="nav-item" style="margin-top:0;">
+                            <a href="#Blog" class="btn-flat waves-effect waves-green blue darken-1" style="margin-left: 8px;">Skills</a>
+                        </li>
+                        <li  class="nav-item" style="margin-top:0;">
+                            <a href="#coolstuff" class="btn-flat waves-effect waves-light blue darken-1" style="margin-left: 8px;">Cool Stuff</a>
+                        </li>
+                    </ul>
+              </div>
         </nav>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/parallax2.jpg" alt="Imagen de presentacion, I am a Computer Scientist"></div>
+        <div class="parallax"><img src="images/cs.png" alt="Imagen de presentacion, I am a Computer Scientist"></div>
     </div>
     <div class="container-fluid row">
         <div class="section blue darken-2">
@@ -81,8 +83,12 @@
             </div>
         </div>
     </div>
-    <div class="parallax-container hide-on-small-only">
-        <div class="parallax"><img src="images/nice.png"></div>
+    <div class="parallax-container">
+        <div class="parallax"><img class="hide-on-small-only"src="images/nice.png">
+            </div>
+            <div class="parallax">
+            <img class="hide-on-med-and-up"src="images/nice2.png">
+        </div>
     </div>
     <div class="container-fluid row">
         <div class="section blue darken-2">
