@@ -103,3 +103,12 @@ h3 {
     margin-right: 0;
     padding: 1rem;
 }
+#dropdown{
+	padding:10px;
+	width:15%;
+}
+.nav-wrapper{
+	float:left;
+	padding-right: 15px;
+	padding-left:15px;
+}
