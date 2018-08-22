@@ -28,18 +28,19 @@ a:hover{
 }
 .navbar{
 	margin-bottom:0;
+	color:white;
 	padding:1rem 1rem;
 
 }
 .navbar-collapse{
 	padding:0;
-
 }
 
-.navbar-nav > li > a{
+.navbar-nav,.navbar-light,.navbar-link{
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+
 
 .container-fluid{
 	margin-bottom: 0rem;
