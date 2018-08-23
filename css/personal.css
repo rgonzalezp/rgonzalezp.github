@@ -12,17 +12,6 @@
     margin-right: 1rem;
 }
 
-
-a {
-    text-decoration-style: : none;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration-style: : none;
-    text-decoration: none;
-}
-
 .row {
     margin-bottom: 0;
     margin-left: 0;
@@ -74,10 +63,6 @@ a:hover {
     padding-left: 0rem;
 }
 
-p {
-    line-height: auto !important;
-}
-
 .card-panel {
     margin-left: 0rem;
     margin-right: 0rem;
@@ -87,12 +72,6 @@ p {
     height: auto;
 }
 
-h3 {
-    font-family: Capriola;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .brand-logo{
     font-family: Capriola;
 }
@@ -124,19 +103,45 @@ h3 {
     font-size:20px;
     padding-left:20px;
 }
-button{
-    color:white;
-}
+
 .skills {
   text-align: right;
   padding: 10px;
   color: white;
 }
 
-.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.java {width: 80%; background-color: rgb(0,115,150);}
+.html {width: 80%; background-color: #e34f26;}
+.css {width: 70%; background-color: rgb(16,72,127);}
+.js {width: 55%; background-color: #f7df1e;}
+.python {width: 30%; background-color: #646464;}
+
+h3 {
+    font-family: Capriola;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h4 {
+font-family: Capriola;
+    margin-top: 0.5rem;
+}
+button{
+    color:white;
+}
+p {
+    line-height: auto !important;
+}
+
+a {
+    text-decoration-style: : none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-style: : none;
+    text-decoration: none;
+}
 
 #right-content {
     padding: 0;
@@ -163,4 +168,7 @@ button{
 #dropdown{
 	padding:10px;
 	width:15%;
+}
+.progresshelper{
+	background-color: #ddd;
 }

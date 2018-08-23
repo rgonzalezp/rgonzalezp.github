@@ -1,24 +1,37 @@
 
 'use strict';
 
-
-  function isElementInViewportAlpha (el) {
-
-    //special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
+$(function() {
+    
+    var $meters = $(".skills");
+    var $section = $('#skill');
+    var $queue = $({});
+    
+    function loadDaBars() {
+        $meters.each(function() {
+            var $el = $(this);
+            var origWidth = $el.width();
+            $el.width(0);
+            $queue.queue(function(next) {
+                $el.animate({width: origWidth}, 700, next);
+            });
+        });
     }
+    
+    $(document).bind('scroll', function(ev) {
+        var scrollOffset = $(document).scrollTop();
+        var containerOffset = $section.offset().top - window.innerHeight;
+        if (scrollOffset > containerOffset) {
+            loadDaBars();
+            // unbind event not to load scrolsl again
+            $(document).unbind('scroll');
+        }
+    });
+    
+});
 
-    var rect = el.getBoundingClientRect();
 
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
-    );
-}
-
+  
     
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
