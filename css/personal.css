@@ -39,11 +39,32 @@ a:hover {
     padding: 0;
 }
 
-.navbar-nav,
+
 .navbar-light,
 .navbar-link {
     padding-top: 8px;
     padding-bottom: 8px;
+   
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav-item a.active {
+    border-bottom: 3px solid white;
+}
+.navbar-nav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:  #1E88E5;
+    width:100%;
+}
+.navbar-toggler{
+    padding:0px;
+}
+.nav-item{
+    width:100%;
 }
 
 
@@ -89,11 +110,11 @@ h3 {
     padding: 0;
 }
 
-#Philosophy {
+#Ph {
     background-color: #1E88E5;
 }
 
-#Skills {
+#Sk {
     background-color: #1E88E5;
 }
 
