@@ -97,6 +97,9 @@ h3 {
     height: auto ;
     width:100%;
 }
+.imgpane{
+    width:50%!important;
+}
 
 .special-panel {
     padding: auto;
