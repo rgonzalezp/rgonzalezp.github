@@ -25,12 +25,11 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, 0);
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
-      direction: 'bottom',
-      hoverEnabled: true
-    });
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, "default");
   });
 
 
-     
+  document.addEventListener('DOMContentLoaded', function() {
+    
+  });
