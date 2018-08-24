@@ -2,7 +2,7 @@
 .btn-large,
 .btn-small,
 .btn-flat {
-    font-family: "Rubik";
+    font-family: "Capriola";
     font-size: 16;
     font-weight: 600;
     color: white;
@@ -141,6 +141,10 @@ a {
 a:hover {
     text-decoration-style: : none;
     text-decoration: none;
+}
+strong{
+	font-family:'Roboto', 900;
+	font-size:20px; 
 }
 
 #right-content {
