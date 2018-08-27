@@ -125,6 +125,10 @@
   color: white;
 }
 
+/*
+Estos bloques no tienen la misma estructura que todo el documento
+*/
+
 .java {width: 80%; background-color: rgb(0,115,150);}
 .html {width: 80%; background-color: #e34f26;}
 .css {width: 70%; background-color: rgb(16,72,127);}
